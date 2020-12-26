@@ -1,0 +1,12 @@
+.loading {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 70px auto;
+}
+
+.loading h1 {
+  margin: 50px;
+}

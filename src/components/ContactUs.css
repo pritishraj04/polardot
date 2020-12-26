@@ -1,0 +1,165 @@
+/* FONTS 
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+:root {
+  --primary-clr: #00b0f0;
+  --secondary-clr: #f1540f;
+}
+
+.contact-us_container {
+  font-family: "Roboto", sans-serif;
+  color: #555555;
+  background-color: #191919;
+  margin: 0;
+  padding: 100px 0;
+  font-size: 1.062rem;
+  line-height: 1.6;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-us_container h1 {
+  text-align: center;
+}
+
+.contact-us_container h2 {
+  text-align: center;
+}
+
+p#break {
+  font-weight: lighter;
+  font-size: 0.85rem;
+  line-height: 1;
+
+  margin: 0;
+}
+
+.contact-us_container .container {
+  width: 75%;
+  margin: auto;
+  max-width: 700px;
+}
+
+.contact-us_container .card {
+  box-shadow: 0px 3px 6px 0px rgba(255, 255, 255, 0.46);
+  border-radius: 10px;
+  padding: 2em;
+  /* Gives opacity to card without effecting children */
+  background: #2d2d2d;
+}
+
+.message-title {
+  margin-top: 0;
+  padding-bottom: 0.75em;
+  border-bottom: solid 1px rgb(221, 221, 221);
+  text-align: left;
+}
+
+.message-container {
+  margin-bottom: 8em;
+  max-width: 600px;
+}
+
+.contact-us_container form {
+  display: grid;
+
+  grid-template-columns: 90px auto auto;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 2em;
+  margin-top: 2em;
+}
+
+.contact-us_container label {
+  font-weight: bold;
+  grid-column: 1/2;
+}
+
+.contact-us_container input {
+  /* May help keep right column responsive
+	width: cal(100%-200px); */
+  grid-column: 2/4;
+  height: 3em;
+  border: solid 3px var(--primary-clr);
+  border-radius: 4em;
+  padding: 0 1em;
+}
+
+.contact-us_container input,
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-us_container textarea {
+  grid-column: 2/4;
+  border-radius: 2em;
+  border: solid 3px var(--primary-clr);
+  padding: 0.5em 1em;
+}
+
+.contact-us_container input:focus,
+textarea:focus {
+  background: rgb(211, 230, 253);
+  outline: none;
+}
+
+.first-name {
+  grid-column: 2/3;
+}
+
+.last-name {
+  grid-column: 3/4;
+}
+
+.contact-us_container .button-container {
+  grid-column: 1/4;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us_container .button {
+  width: 5.5em;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-us_container .button:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Specific to background image */
+  img #background-img {
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}
+
+/* For Mobile */
+@media (max-width: 750px) {
+  .contact-us_container .container {
+    width: 90%;
+  }
+
+  .contact-us_container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name {
+    grid-column-gap: 0;
+  }
+
+  .contact-us_container input,
+  textarea {
+    margin: 1em 0;
+  }
+
+  p#break {
+    display: inline;
+  }
+}
