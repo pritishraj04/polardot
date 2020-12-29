@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/polardot/static/css/main.d6249b24.chunk.css",
-    "main.js": "/polardot/static/js/main.87858f5d.chunk.js",
-    "main.js.map": "/polardot/static/js/main.87858f5d.chunk.js.map",
+    "main.css": "/polardot/static/css/main.87791e64.chunk.css",
+    "main.js": "/polardot/static/js/main.0bbb0949.chunk.js",
+    "main.js.map": "/polardot/static/js/main.0bbb0949.chunk.js.map",
     "runtime-main.js": "/polardot/static/js/runtime-main.708b6704.js",
     "runtime-main.js.map": "/polardot/static/js/runtime-main.708b6704.js.map",
-    "static/js/2.4b9929c9.chunk.js": "/polardot/static/js/2.4b9929c9.chunk.js",
-    "static/js/2.4b9929c9.chunk.js.map": "/polardot/static/js/2.4b9929c9.chunk.js.map",
+    "static/js/2.5ed3e16d.chunk.js": "/polardot/static/js/2.5ed3e16d.chunk.js",
+    "static/js/2.5ed3e16d.chunk.js.map": "/polardot/static/js/2.5ed3e16d.chunk.js.map",
     "index.html": "/polardot/index.html",
-    "static/css/main.d6249b24.chunk.css.map": "/polardot/static/css/main.d6249b24.chunk.css.map",
-    "static/js/2.4b9929c9.chunk.js.LICENSE.txt": "/polardot/static/js/2.4b9929c9.chunk.js.LICENSE.txt",
+    "static/css/main.87791e64.chunk.css.map": "/polardot/static/css/main.87791e64.chunk.css.map",
+    "static/js/2.5ed3e16d.chunk.js.LICENSE.txt": "/polardot/static/js/2.5ed3e16d.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/polardot/static/media/logo.24f8774a.svg",
     "static/media/side-section.png": "/polardot/static/media/side-section.5da74e61.png"
   },
   "entrypoints": [
     "static/js/runtime-main.708b6704.js",
-    "static/js/2.4b9929c9.chunk.js",
-    "static/css/main.d6249b24.chunk.css",
-    "static/js/main.87858f5d.chunk.js"
+    "static/js/2.5ed3e16d.chunk.js",
+    "static/css/main.87791e64.chunk.css",
+    "static/js/main.0bbb0949.chunk.js"
   ]
 }
