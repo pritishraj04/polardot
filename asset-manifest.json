@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/polardot/static/css/main.06173ed9.chunk.css",
+    "main.css": "/polardot/static/css/main.107c6aad.chunk.css",
     "main.js": "/polardot/static/js/main.1970267d.chunk.js",
     "main.js.map": "/polardot/static/js/main.1970267d.chunk.js.map",
     "runtime-main.js": "/polardot/static/js/runtime-main.708b6704.js",
@@ -8,7 +8,7 @@
     "static/js/2.d3fe455b.chunk.js": "/polardot/static/js/2.d3fe455b.chunk.js",
     "static/js/2.d3fe455b.chunk.js.map": "/polardot/static/js/2.d3fe455b.chunk.js.map",
     "index.html": "/polardot/index.html",
-    "static/css/main.06173ed9.chunk.css.map": "/polardot/static/css/main.06173ed9.chunk.css.map",
+    "static/css/main.107c6aad.chunk.css.map": "/polardot/static/css/main.107c6aad.chunk.css.map",
     "static/js/2.d3fe455b.chunk.js.LICENSE.txt": "/polardot/static/js/2.d3fe455b.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/polardot/static/media/logo.24f8774a.svg",
     "static/media/side-section.png": "/polardot/static/media/side-section.5da74e61.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.708b6704.js",
     "static/js/2.d3fe455b.chunk.js",
-    "static/css/main.06173ed9.chunk.css",
+    "static/css/main.107c6aad.chunk.css",
     "static/js/main.1970267d.chunk.js"
   ]
 }
